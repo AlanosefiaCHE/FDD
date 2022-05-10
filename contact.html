@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan</title>
+    <link rel="stylesheet" href="styleHP.css">
+</head>
+
+<body>
+
+    <nav>
+        <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+        </div>
+        <ul class="nav_link">
+            <li><a class="nav-css" href="index.html">Home</a> </li>
+            <li><a class="nav-css" href="7.aboutme.html">About me </a></li>
+            <li><a class="nav-css" href="contact.html"> Contact formulier</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <h1 class="onderwerp">Contact formulier</h1>
+    </div>
+    <div class="input">
+        <div class="contact-box">
+            <form id="myForm">
+                <input name="name" type="text" class="input-field touched" placeholder="Naam" required>
+                <input name="email" type="email" class="input-field touched" placeholder="Email" required>
+                <input name="onderwerp" type="text" class="input-field touched" placeholder="Onderwerp" required>
+                <textarea name="bericht" class="input-field touched textarea-field type" placeholder="Bericht" required></textarea>
+                <input type="submit" name="submit" value="Versturen➤  " class="btn">
+            </form>
+
+        </div>
+        <h2>Bewijs werkend contact formulier</h2>
+        <img class="afstand-afbeelding" src="./img/contact_bewijs.jpg" alt="email zappier">
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="global.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

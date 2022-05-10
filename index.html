@@ -1,0 +1,108 @@
+<!-- lang="nl" betekent dat de site in het nederlands is geschreven. -->
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan</title>
+    <!-- Deze link koppelt de css file aan deze pagina -->
+    <link rel="stylesheet" href="styleHP.css">
+</head>
+
+<body id="HP">
+    <nav>
+        <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+        </div>
+        <!-- Dit is mijn hamburger menu die ik heb gemaakt, je kan het principe vinden van het script bij main.js. -->
+
+        <ul class="nav_link">
+            <li><a class="nav-css" href="index.html">Home</a> </li>
+            <li><a class="nav-css" href="7.aboutme.html">About me </a></li>
+            <li><a class="nav-css" href="contact.html"> Contact formulier</a></li>
+        </ul>
+    </nav>
+
+    <div class="flex-wrap">
+        <div id="left-side">
+            <img id=hpf src="./img/1.1alanOsefia.jpg" alt="Alan">
+            <h1 class="mtxt"> &lt;h1>Web_development_from_0_to_1 &lt;/h1> </h1>
+
+
+            <p class="txt1"> &lt;p>Hallo mijn naam is Alan en ik ben een eerste jaars student aan de CHE. Voor mijn opleiding heb ik een website gemaakt waarop ik voornamelijk mijn kennis deel over Front-end development/ UX design &lt;/p> </p>
+
+        </div>
+        <!-- Ik heb mijn homepage onderverdeelt in 2 helfden namelijk een linker helft waar ik mezelf voorstel en de rechter
+helft waarbij de onderwerpen die ik heb gehad binnen de lessen van Front-end development. -->
+        <div id="right-side">
+            <!-- De afbeeldingen die als linkjes dienen zijn via css toegevoegd, omdat als ik het in html deed mijn afbeeldingen niet responsive waren. -->
+            <div class="weken-wrapper">
+                <div class="weekblok">
+                    <a href="1.intro.html">
+                        <div class="week-foto" id="intro"></div>
+                    </a>
+                    <h3 class="atxt">Introductie</h3>
+                </div>
+
+                <div class="weekblok">
+                    <a href="2.balsamiq.html">
+                        <div class="week-foto" id="bals"></div>
+                    </a>
+                    <h3 class="atxt">Balsamiq</h3>
+                </div>
+
+                <div class="weekblok">
+                    <a href="3.Figma.html">
+                        <div class="week-foto" id="figma"></div>
+                    </a>
+                    <h3 class="atxt">Figma</h3>
+                </div>
+                <div class="weekblok">
+
+
+                    <a href="5.moodboard.html">
+                        <div class="week-foto" id="moodboard"></div>
+                    </a>
+                    <h3 class="atxt">Moodboard</h3>
+                </div>
+
+                <div class="weekblok">
+                    <a href="4.UX.html">
+                        <div class="week-foto" id="UX"></div>
+                    </a>
+                    <h3 class="atxt">Usability Testing</h3>
+                </div>
+
+                <div class="weekblok">
+                    <a href="6.D&A.html">
+                        <div class="week-foto" id="DNA"></div>
+                    </a>
+                    <h3 class="atxt">Design & accesibility</h3>
+                </div>
+
+                <div class="weekblok">
+                    <a href="8.DNS.html">
+                        <div class="week-foto" id="DNS"></div>
+                    </a>
+                    <h3 class="atxt">DNS</h3>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Met de tag script heb ik mijn javascript script gelinkt om zo mijn hamburger menu responsive te maken -->
+    <!-- De reden dat de script onderaan de pagina staat komt doordat alle code eerst moet worden gelezen voordat het script weet
+waarop het moet reageren.-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
